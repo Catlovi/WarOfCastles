@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="cards.xslt"?>
+<Cards xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="cards.xsd">
+    
+    
+    <BenefitCard id="1">
+        <Name>Kingdom Needs You</Name>
+        <Description>Gain 10 troops from each class</Description>
+        <TroopGain type="Knight" quantity="10"/>
+        <TroopGain type="Archer" quantity="10"/>
+        <TroopGain type="Cannoneer" quantity="10"/>
+        <TroopGain type="Medic" quantity="10"/>
+    </BenefitCard>
+
+    <BenefitCard id="2">
+        <Name>Gain 40 Knights</Name>
+        <TroopGain type="Knight" quantity="40"/>
+    </BenefitCard>
+
+    <BenefitCard id="3">
+        <Name>Gain 40 Archers</Name>
+        <TroopGain type="Archer" quantity="40"/>
+    </BenefitCard>
+
+    <BenefitCard id="4">
+        <Name>Gain 40 Cannoneers</Name>
+        <TroopGain type="Cannoneer" quantity="40"/>
+    </BenefitCard>
+
+    <BenefitCard id="5">
+        <Name>Gain 40 Medics</Name>
+        <TroopGain type="Medic" quantity="40"/>
+    </BenefitCard>
+
+    <BenefitCard id="6">
+        <Name>Gain 40 Troops</Name>
+        <Description>Gain 40 troops of mixed classes</Description>
+    </BenefitCard>
+
+    <!--defect cards-->
+    <DefectCard id="7">
+        <Name>Sickness</Name>
+        <Description>Lose 10 troops from each class</Description>
+        <TroopLoss type="Knight" quantity="10"/>
+        <TroopLoss type="Archer" quantity="10"/>
+        <TroopLoss type="Cannoneer" quantity="10"/>
+        <TroopLoss type="Medic" quantity="10"/>
+    </DefectCard>
+
+    <DefectCard id="8">
+        <Name>Lose 40 Knights</Name>
+        <TroopLoss type="Knight" quantity="40"/>
+    </DefectCard>
+
+    <DefectCard id="9">
+        <Name>Lose 40 Archers</Name>
+        <TroopLoss type="Archer" quantity="40"/>
+    </DefectCard>
+
+    <DefectCard id="10">
+        <Name>Lose 40 Cannoneers</Name>
+        <TroopLoss type="Cannoneer" quantity="40"/>
+    </DefectCard>
+
+    <DefectCard id="11">
+        <Name>Lose 40 Medics</Name>
+        <TroopLoss type="Medic" quantity="40"/>
+    </DefectCard>
+
+    <DefectCard id="12">
+        <Name>Lose 40 Troops</Name>
+        <Description>Lose 40 troops of mixed classes</Description>
+    </DefectCard>
+</Cards>

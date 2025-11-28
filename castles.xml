@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="castles.xslt"?>
+<Castles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="castles.xsd">
+    
+    <Castle id="1">
+        <Name>Oudaïas Castle</Name>
+        <Attack>2500</Attack>
+        <Defense>2500</Defense>
+        <Benefit>Transform 2% of player attack points into defense points</Benefit>
+    </Castle>
+
+    <Castle id="2">
+        <Name>Miravalle Castle</Name>
+        <Attack>2500</Attack>
+        <Defense>2500</Defense>
+        <Benefit>Transform 2% of player defense points into attack points</Benefit>
+    </Castle>
+
+    <Castle id="3">
+        <Name>Versailles Castle</Name>
+        <Attack>2500</Attack>
+        <Defense>2500</Defense>
+        <Benefit>Give 2 additional cannoneers depending on castles owned</Benefit>
+    </Castle>
+
+    <Castle id="4">
+        <Name>Schönbrunn Castle</Name>
+        <Attack>2500</Attack>
+        <Defense>2500</Defense>
+        <Benefit>Give 3 additional medics depending on castles owned</Benefit>
+    </Castle>
+
+    <Castle id="5">
+        <Name>Topkapı Castle</Name>
+        <Attack>2500</Attack>
+        <Defense>2500</Defense>
+        <Benefit>Multiply army attack points by 1.05 depending on castles owned</Benefit>
+    </Castle>
+
+    <Castle id="6">
+        <Name>Kremlin Castle</Name>
+        <Attack>2500</Attack>
+        <Defense>2500</Defense>
+        <Benefit>Multiply army defense points by 1.05 depending on castles owned</Benefit>
+    </Castle>
+
+    <Castle id="7">
+        <Name>Himeji Castle</Name>
+        <Attack>2500</Attack>
+        <Defense>2500</Defense>
+        <Benefit>Give 2 additional archers depending on castles owned</Benefit>
+    </Castle>
+
+    <Castle id="8">
+        <Name>Buckingham Castle</Name>
+        <Attack>2500</Attack>
+        <Defense>2500</Defense>
+        <Benefit>Give 2 additional knights depending on castles owned</Benefit>
+    </Castle>
+
+</Castles>

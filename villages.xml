@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="villages.xslt"?>
+<Villages xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="villages.xsd">
+
+    <Village id="1">
+        <Name>Village near Oudaïas Castle</Name>
+        <TroopProduction>
+            <Troop type="Knight" quantity="2"/>
+            <Troop type="Archer" quantity="2"/>
+            <Troop type="Cannoneer" quantity="2"/>
+            <Troop type="Medic" quantity="2"/>
+        </TroopProduction>
+    </Village>
+
+    <Village id="2">
+        <Name>Village near Miravalle Castle</Name>
+        <TroopProduction>
+            <Troop type="Knight" quantity="2"/>
+            <Troop type="Archer" quantity="2"/>
+            <Troop type="Cannoneer" quantity="2"/>
+            <Troop type="Medic" quantity="2"/>
+        </TroopProduction>
+    </Village>
+
+    <Village id="3">
+        <Name>Village near Versailles Castle</Name>
+        <TroopProduction>
+            <Troop type="Knight" quantity="2"/>
+            <Troop type="Archer" quantity="2"/>
+            <Troop type="Cannoneer" quantity="2"/>
+            <Troop type="Medic" quantity="2"/>
+        </TroopProduction>
+    </Village>
+
+    <Village id="4">
+        <Name>Village near Schönbrunn Castle</Name>
+        <TroopProduction>
+            <Troop type="Knight" quantity="2"/>
+            <Troop type="Archer" quantity="2"/>
+            <Troop type="Cannoneer" quantity="2"/>
+            <Troop type="Medic" quantity="2"/>
+        </TroopProduction>
+    </Village>
+
+    <Village id="5">
+        <Name>Village near Topkapı Castle</Name>
+        <TroopProduction>
+            <Troop type="Knight" quantity="2"/>
+            <Troop type="Archer" quantity="2"/>
+            <Troop type="Cannoneer" quantity="2"/>
+            <Troop type="Medic" quantity="2"/>
+        </TroopProduction>
+    </Village>
+
+    <Village id="6">
+        <Name>Village near Kremlin Castle</Name>
+        <TroopProduction>
+            <Troop type="Knight" quantity="2"/>
+            <Troop type="Archer" quantity="2"/>
+            <Troop type="Cannoneer" quantity="2"/>
+            <Troop type="Medic" quantity="2"/>
+        </TroopProduction>
+    </Village>
+
+    <Village id="7">
+        <Name>Village near Himeji Castle</Name>
+        <TroopProduction>
+            <Troop type="Knight" quantity="2"/>
+            <Troop type="Archer" quantity="2"/>
+            <Troop type="Cannoneer" quantity="2"/>
+            <Troop type="Medic" quantity="2"/>
+        </TroopProduction>
+    </Village>
+
+    <Village id="8">
+        <Name>Village near Buckingham Castle</Name>
+        <TroopProduction>
+            <Troop type="Knight" quantity="2"/>
+            <Troop type="Archer" quantity="2"/>
+            <Troop type="Cannoneer" quantity="2"/>
+            <Troop type="Medic" quantity="2"/>
+        </TroopProduction>
+    </Village>
+</Villages>

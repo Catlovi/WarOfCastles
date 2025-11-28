@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="Cards">
+        <xs:complexType>
+            <xs:sequence>
+                
+                <xs:element name="BenefitCard" type="BenefitCardType" maxOccurs="unbounded"/>
+                
+                <xs:element name="DefectCard" type="DefectCardType" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <!--cartes de benefice-->
+    <xs:complexType name="BenefitCardType">
+        <xs:sequence>
+            <xs:element name="Name" type="xs:string"/>
+            <xs:element name="Description" type="xs:string" minOccurs="0"/>
+            <xs:element name="TroopGain" type="TroopChangeType" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+        <xs:attribute name="id" type="xs:int" use="required"/>
+    </xs:complexType>
+
+    <!-- definition des DefectCards-->
+    <xs:complexType name="DefectCardType">
+        <xs:sequence>
+            <xs:element name="Name" type="xs:string"/>
+            <xs:element name="Description" type="xs:string" minOccurs="0"/>
+            <xs:element name="TroopLoss" type="TroopChangeType" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+        <xs:attribute name="id" type="xs:int" use="required"/>
+    </xs:complexType>
+
+    <!--on definit troopChange -->
+    <xs:complexType name="TroopChangeType">
+        <xs:attribute name="type" type="xs:string" use="required"/>
+        <xs:attribute name="quantity" type="xs:int" use="required"/>
+    </xs:complexType>
+
+</xs:schema>
