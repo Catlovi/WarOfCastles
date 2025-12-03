@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+    
+<Troops xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="troops.xsd">
+
+    <Troop type="Knight" attack="5" defense="8"/>
+    <Troop type="Archer" attack="6" defense="4"/>
+    <Troop type="Cannoneer" attack="10" defense="2"/>
+    <Troop type="Medic" attack="1" defense="3"/>
+</Troops>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Players>
+    <Player id="P1" order="1">
+        <CurrentCase>1</CurrentCase>
+        <Army>
+            <Troop type="Knight" quantity="10"/>
+            <Troop type="Archer" quantity="8"/>
+            <Troop type="Cannoneer" quantity="5"/>
+            <Troop type="Medic" quantity="3"/>
+        </Army>
+    </Player>
+
+    <Player id="P2" order="2">
+        <CurrentCase>1</CurrentCase>
+        <Army>
+            <Troop type="Knight" quantity="12"/>
+            <Troop type="Archer" quantity="6"/>
+            <Troop type="Cannoneer" quantity="4"/>
+            <Troop type="Medic" quantity="2"/>
+        </Army>
+    </Player>
+</Players>

@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Board xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="board.xsd">
+    
+    <!-- Castle Cases -->
+    <Case id="1" position="1" type="Castle">
+        <Name>Oudaïas Castle</Name>
+    </Case>
+    <Case id="5" position="5" type="Castle">
+        <Name>Miravalle Castle</Name>
+    </Case>
+    <Case id="10" position="10" type="Castle">
+        <Name>Versailles Castle</Name>
+    </Case>
+    <Case id="15" position="15" type="Castle">
+        <Name>Schönbrunn Castle</Name>
+    </Case>
+    <Case id="20" position="20" type="Castle">
+        <Name>Topkapı Castle</Name>
+    </Case>
+    <Case id="25" position="25" type="Castle">
+        <Name>Kremlin Castle</Name>
+    </Case>
+    <Case id="30" position="30" type="Castle">
+        <Name>Himeji Castle</Name>
+    </Case>
+    <Case id="35" position="35" type="Castle">
+        <Name>Buckingham Castle</Name>
+    </Case>
+
+    <!-- Village Cases -->
+    <Case id="2" position="2" type="Village"/>
+    <Case id="6" position="6" type="Village"/>
+    <Case id="11" position="11" type="Village"/>
+    <Case id="16" position="16" type="Village"/>
+    <Case id="21" position="21" type="Village"/>
+    <Case id="26" position="26" type="Village"/>
+    <Case id="31" position="31" type="Village"/>
+    <Case id="36" position="36" type="Village"/>
+
+    <!-- Card Cases -->
+    <Case id="3" position="3" type="Card"/>
+    <Case id="7" position="7" type="Card"/>
+    <Case id="12" position="12" type="Card"/>
+    <Case id="17" position="17" type="Card"/>
+    <Case id="22" position="22" type="Card"/>
+    <Case id="27" position="27" type="Card"/>
+    <Case id="32" position="32" type="Card"/>
+    <Case id="37" position="37" type="Card"/>
+
+    <!-- Rogue Cases -->
+    <Case id="4" position="4" type="Rogue"/>
+    <Case id="8" position="8" type="Rogue"/>
+    <Case id="13" position="13" type="Rogue"/>
+    <Case id="18" position="18" type="Rogue"/>
+    <Case id="23" position="23" type="Rogue"/>
+    <Case id="28" position="28" type="Rogue"/>
+    <Case id="33" position="33" type="Rogue"/>
+    <Case id="38" position="38" type="Rogue"/>
+
+    <!-- Battle Cases -->
+    <Case id="9" position="9" type="BattleCase">
+        <RequiredCastles>2</RequiredCastles>
+    </Case>
+    <Case id="19" position="19" type="BattleCase">
+        <RequiredCastles>3</RequiredCastles>
+    </Case>
+    <Case id="29" position="29" type="BattleCase">
+        <RequiredCastles>4</RequiredCastles>
+    </Case>
+    <Case id="39" position="39" type="BattleCase">
+        <RequiredCastles>5</RequiredCastles>
+    </Case>
+
+    <!-- Final Case -->
+    <Case id="40" position="40" type="Victory"/>
+</Board>

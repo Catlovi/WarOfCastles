@@ -1,10 +1,10 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0"
                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
     <xsl:output method="html" indent="yes"/>
-    
+
+    <!-- Root template -->
     <xsl:template match="/">
         <html>
             <head>
@@ -24,26 +24,26 @@
                         <th>Name</th>
                         <th>Troop Production</th>
                     </tr>
-                    
+                    <!-- Apply templates to each Village -->
                     <xsl:apply-templates select="Villages/Village"/>
                 </table>
             </body>
         </html>
     </xsl:template>
 
-   
+    <!-- Template for each Village -->
     <xsl:template match="Village">
         <tr>
             <td><xsl:value-of select="@id"/></td>
             <td><xsl:value-of select="Name"/></td>
             <td>
-                
+                <!-- Apply templates to each Troop -->
                 <xsl:apply-templates select="TroopProduction/Troop"/>
             </td>
         </tr>
     </xsl:template>
 
-   
+    <!-- Template for each Troop -->
     <xsl:template match="Troop">
         <xsl:value-of select="@type"/>: <xsl:value-of select="@quantity"/>
         <xsl:if test="position() != last()">, </xsl:if>

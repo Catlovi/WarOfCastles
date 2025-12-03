@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="Troops">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Troop" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:attribute name="type" type="xs:string" use="required"/>
+                        <xs:attribute name="attack" type="xs:integer" use="required"/>
+                        <xs:attribute name="defense" type="xs:integer" use="required"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

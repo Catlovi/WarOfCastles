@@ -4,7 +4,7 @@
     <xs:element name="Castles">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="Castle" maxOccurs="unbounded">
+                <xs:element name="Castle" maxOccurs="8">
                     <xs:complexType>
                         <xs:sequence>
                             <xs:element name="Name" type="xs:string"/>
